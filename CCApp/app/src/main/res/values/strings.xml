@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CC</string>
+    <string name="quenMatKhau" translatable="false">Forgot password</string>
+    <string name="cau1" translatable="false">Bạn có bao nhiêu bạn trai(bạn gái)?</string>
+    <string name="cau2" translatable="false">Số điện thoại của bạn trai(bạn gái) của bạn là gì?</string>
+    <string name="cau3" translatable="false">Con số yêu thích của bạn là bao nhiêu?</string>
+    <string name="cau4" translatable="false">Món ăn yêu thích của bạn là gì?</string>
+    <string name="cau5" translatable="false">Tên trường cấp 3 của bạn là gì?</string>
+    <string name="cau6" translatable="false">Người yêu cũ của bạn tên gì?</string>
+    <string name="cau7" translatable="false">Tại sao bạn và người yêu cũ lại chia tay?</string>
+    <string name="cau8" translatable="false">Bạn xếp hình trong bao lâu?</string>
+    <string name="cau9" translatable="false">Bạn sinh sống ở đâu?</string>
+    <string name="cau10" translatable="false">Con vật yêu thích của bạn là gì?</string>
+    <string name="my_cart">My Cart</string>
+    <string name="delete">DELETE</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

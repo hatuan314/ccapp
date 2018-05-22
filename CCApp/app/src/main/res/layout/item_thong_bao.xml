@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:elevation="4dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/view_Xoa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f14747">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:src="@drawable/ic_delete_white_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="@string/delete"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/view_HienThi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="@dimen/padd_10">
+        <TextView
+            android:id="@+id/tvThoiGian"
+            android:layout_margin="15px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="04/04/2018"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/logo"
+            android:layout_below="@id/tvThoiGian"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:gravity="center_vertical"
+            android:layout_below="@id/tvThoiGian"
+            android:layout_toRightOf="@id/ivImage"
+            android:text="Nội dung"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</FrameLayout>

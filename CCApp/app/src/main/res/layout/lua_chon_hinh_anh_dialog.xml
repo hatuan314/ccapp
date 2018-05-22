@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15px">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn hình ảnh từ"
+        android:textSize="22sp"
+        android:padding="15px"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvThuVienAnh"
+        android:layout_marginTop="15px"
+        android:layout_marginLeft="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="Thư viện ảnh"
+        android:background="#cececece"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tvMayAnh"
+        android:layout_marginTop="15px"
+        android:layout_marginLeft="15px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy ảnh"
+        android:padding="20px"
+        android:background="#cececece"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+</LinearLayout>

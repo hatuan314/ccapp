@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lichlamviec"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hatuan.cc.LichLamViecActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbLichLamViec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivMenu90"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_hambuger_menu48_90"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="LỊCH LÀM VIỆC"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:id="@+id/ivTaoLichLamViec"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_add48"
+                android:layout_gravity="right|center_vertical"/>
+        </FrameLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuần:"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+        <Spinner
+            android:background="@drawable/spinner"
+            android:id="@+id/spTuan"
+            android:layout_marginLeft="15px"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="300px"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/lvExpNgayTrongTuan"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="#00ffffff"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:cacheColorHint="#00000000"/>
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/cbQRScan"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="15px"
+        android:layout_marginBottom="15px"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_qrcode30"
+        app:cb_color="#c842c0d9"/>
+</FrameLayout>

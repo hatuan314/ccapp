@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hotro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hatuan.cc.HoTroActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbHoTro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivMenu90"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_hambuger_menu48_90"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HỖ TRỢ"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#ffffff"/>
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <WebView
+        android:id="@+id/wbSupport"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <at.markushi.ui.CircleButton
+        android:id="@+id/cbQRScan"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="15px"
+        android:layout_marginBottom="15px"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_qrcode30"
+        app:cb_color="#c842c0d9"/>
+</FrameLayout>
